@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff13ed91b018edf4e91208e3cc03ede0, type: 3}
+  m_Name: MDR
+  m_EditorClassIdentifier: 
+  <ShotsPerMinute>k__BackingField: 650
+  <Recoil>k__BackingField:
+    <ShootingIntensity>k__BackingField: 1
+    <VerticalPattern>k__BackingField:
+      <Recoil>k__BackingField: 60
+      <StartMultiplier>k__BackingField: 0.5
+      <MultiplierIncreasing>k__BackingField: 0.8
+      <MultiplierDecreasing>k__BackingField: 1.3
+    <HorizontalPattern>k__BackingField:
+      <RecoilCurve>k__BackingField:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 60
+          value: 60
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 0
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      <StartMultiplierTime>k__BackingField: 0.5
+      <MultiplierCurve>k__BackingField:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      <MultiplierIncreasing>k__BackingField: 0.8
+      <MultiplierDecreasing>k__BackingField: 1.3
+    <ReturnDuration>k__BackingField: 0.4
+    <OverrideReturnCurve>k__BackingField: 0
+    <ReturnCurve>k__BackingField:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  <Audio>k__BackingField:
+    <Shots>k__BackingField:
+    - {fileID: 8300000, guid: c5aab62f1218b6041b1614d3595dc660, type: 3}
