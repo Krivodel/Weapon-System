@@ -4,6 +4,7 @@
 https://github.com/user-attachments/assets/43a7ee13-137b-41a0-bab3-f9bd52810fe3
 
 Гибкая настройка отдачи. Можно имитировать отдачу автоматов, пистолетов, снайперок, дробовиков, гранатомётов и т. д.
+
 ![image](https://github.com/user-attachments/assets/19e4ce14-98ca-4200-ba24-02e51d03c4cc)
 ![image](https://github.com/user-attachments/assets/da7bff05-d1d3-459e-a7ae-1a52bd30e608)
 
