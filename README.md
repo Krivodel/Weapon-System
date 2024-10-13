@@ -9,11 +9,14 @@ https://github.com/user-attachments/assets/43a7ee13-137b-41a0-bab3-f9bd52810fe3
 ![image](https://github.com/user-attachments/assets/da7bff05-d1d3-459e-a7ae-1a52bd30e608)
 
 Модификация оружия, которую можно использовать для оружейных модулей, навыков персонажа и т. д.
+
 ![image](https://github.com/user-attachments/assets/8dc243fd-5100-4668-b392-64e097cab97a)
 
 Можно писать собственные модификаторы. Для этого достаточно наследоваться от **WeaponModifier**
+
 ![image](https://github.com/user-attachments/assets/d964f7e6-6f74-4d24-967c-dac90b34276f)
 И модификатор уже появится в списке для применения
+
 ![image](https://github.com/user-attachments/assets/8a0fb88c-2751-4da7-a4c6-d1741167e41c)
 
 # Как установить
