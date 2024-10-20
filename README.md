@@ -14,7 +14,19 @@ https://github.com/user-attachments/assets/bc35a681-43ea-49d8-b600-f7a78ae7a9d4
 
 Можно писать собственные модификаторы. Для этого достаточно наследоваться от **WeaponModifier**
 
-![image](https://github.com/user-attachments/assets/d964f7e6-6f74-4d24-967c-dac90b34276f)
+```
+public class ExampleModifier : WeaponModifier
+{
+    [field: SerializeField] public float CompensationPercent { get; private set; } = 30f;
+
+    protected override void OnApply(in IWeaponDataReadOnly original, WeaponData modifiable)
+    {
+        float change = original.Recoil.VerticalPattern.MultiplierIncreasing.TakePercent(CompensationPercent);
+
+    }
+}
+```
+
 И модификатор уже появится в списке для применения
 
 ![image](https://github.com/user-attachments/assets/8a0fb88c-2751-4da7-a4c6-d1741167e41c)
