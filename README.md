@@ -23,6 +23,7 @@ public class ExampleModifier : WeaponModifier
     {
         float change = original.Recoil.VerticalPattern.MultiplierIncreasing.TakePercent(CompensationPercent);
 
+        modifiable.Recoil.VerticalPattern.MultiplierIncreasing -= change;
     }
 }
 ```
